@@ -1,0 +1,69 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('images/2.jpg');
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(0, 123, 255, 0.9);
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Main Section */
+main {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Weather Section */
+#weather-info {
+    margin-bottom: 30px;
+}
+
+.weather-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Developer Info Section */
+#developer-info {
+    margin-bottom: 30px;
+}
+
+/* Auth Section */
+#auth-section button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+#auth-section button:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
